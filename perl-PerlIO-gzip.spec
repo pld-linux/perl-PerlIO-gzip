@@ -1,15 +1,15 @@
 #
 # Conditional build:
 %bcond_without	tests		# do not perform "make test"
-#
+
+%define		pdir	PerlIO
+%define		pnam	gzip
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	PerlIO
-%define	pnam	gzip
 Summary:	PerlIO::gzip - Perl extension to provide a PerlIO layer to gzip/gunzip
 Summary(pl.UTF-8):	PerlIO::gzip - rozszerzenie perla dostarczające warstwę PerlIO do operacji gzip/gunzip
 Name:		perl-PerlIO-gzip
 Version:	0.18
-Release:	2
+Release:	3
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
