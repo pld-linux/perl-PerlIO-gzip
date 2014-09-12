@@ -56,6 +56,5 @@ rm -rf $RPM_BUILD_ROOT
 %doc Changes README
 %{perl_vendorarch}/PerlIO/*.pm
 %dir %{perl_vendorarch}/auto/PerlIO/gzip
-%{perl_vendorarch}/auto/PerlIO/gzip/*.bs
 %attr(755,root,root) %{perl_vendorarch}/auto/PerlIO/gzip/*.so
 %{_mandir}/man3/*
