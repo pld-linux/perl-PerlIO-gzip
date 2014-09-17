@@ -15,6 +15,7 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://search.cpan.org/CPAN/authors/id/N/NW/NWCLARK/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	933fdf283a0d2739f7630420569e3b24
+Patch0:		config_usesfio.patch
 URL:		http://search.cpan.org/dist/PerlIO-gzip/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
@@ -32,6 +33,7 @@ plikach w formatach używanych przez program gzip.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
+%patch0 -p1
 
 %build
 %{__perl} Makefile.PL \
