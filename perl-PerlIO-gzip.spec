@@ -8,7 +8,7 @@ Summary:	PerlIO::gzip - Perl extension to provide a PerlIO layer to gzip/gunzip
 Summary(pl.UTF-8):	PerlIO::gzip - rozszerzenie perla dostarczające warstwę PerlIO do operacji gzip/gunzip
 Name:		perl-PerlIO-gzip
 Version:	0.18
-Release:	17
+Release:	18
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
